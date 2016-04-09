@@ -26,11 +26,13 @@ footer .fineprint {font-size: 1.1rem; color: #888; line-height: 1.5rem;}
 #nav {margin-top: 25px; width: 100%; text-align: center;}
 #nav li {display: inline-block; margin: 0 30px; list-style: none; text-transform: uppercase; font-size: 1.6rem; color: #888; font-weight: 400; cursor: pointer; border-bottom: 3px solid #f2f2f2}
 #nav li:hover {border-color:#ed145b; color: #444;}
+
+/*hero */
 #hero {text-align: center; margin-top: 20px}
 #hero .prodIllusWrap {display: inline-block; width: 100%; max-width: 500px; font-size: 0; line-height: 0; vertical-align: middle; background-size: 100% 100%; background-position: 50% 50%; background-repeat: no-repeat; background-image: url(../images/introIllustration-mobile.jpg)}
 #hero .prodIllus {display: block; height: 0; padding-top: 85.9135%;}
 #hero .introText {font-size: 2.4rem; line-height: 3rem; max-width: 950px; display: inline-block; padding-top: 30px; font-weight: 100}
-#hero .introCTA {cursor: pointer; display: inline-block; clear: both; background: #ed145b; color: #fff; text-transform: uppercase; font-size: 2rem; padding: 20px 40px; border-radius: 5px; margin: 30px 5px}
+#hero .introCTA {cursor: pointer; display: inline-block; clear: both; background: #ed145b; color: #fff; text-transform: uppercase; font-size: 2rem; padding: 20px 40px; border-radius: 5px; margin: 30px 5px; text-decoration: none;}
 #hero .introCTA:hover {background: #c7114c}
 
 /* Signup Modal */
