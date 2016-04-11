@@ -1,7 +1,7 @@
 <html dir="ltr">
 
 <head>
-    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
     <title>P&G Spring Cleaning Campaign</title>
     <!-- Web Font -->
     <script type="text/javascript">
@@ -34,9 +34,9 @@
                 </div>
                 <div id="nav">
                     <ul class="navUl">
+                        <li class="navLink" data-section="hero">Sign-Up</li>
                         <li class="navLink" data-section="products">Save</li>
                         <li class="navLink" data-section="prodMaterials">Sell-it</li>
-						<li class="navLink" data-section="signupForm">Sign-Up</li>
                     </ul>
                 </div>
             </div>
@@ -51,7 +51,15 @@
                 Here's the <span class="bold">easy</span> way to promote spring cleaning with your customers. We'll send <span class="bold uppercase">free</span> samples on your behalf, provide web campaigns and more.
             </div>
             <div class="clear"></div>
-            <a class="introCTA shadow">Sign-up now! &raquo;</a>
+            <a class="introCTA shadow" href="#signupModal">Sign-up now! &raquo;</a>
+
+            <div style="display:none">
+                <div id="signupModal">
+					<h2 class="heading uppercase"><span class="bold">Sign up</span> to clean up!</h2>
+					<p>Get in on our spring cleaning campaign today and clean up on sales!</p>
+                    
+                </div>
+            </div>
         </div>
 
         <!-- Product List -->
@@ -102,17 +110,17 @@
                                 <div class="buttons">
                                     <a class="lgImgClick shadow" data-lg-img="infographic-full.jpg">
                                         <span class="enlargeIcon icon"></span>Enlarge
-                                    </a>
+									</a>
                                     <a class="shadow" href="">
                                         <span class="downloadIcon icon"></span>Download
-                                    </a>
+									</a>
                                 </div>
 
                             </div>
                         </li>
                         <li class="email" data-hash="email">
                             <div class="lftCol">
-                                <img class="imgThumb lgImgClick" src="emailImg.jpg" data-lg-img="emailImg-full.jpg" />
+                                <img class="imgThumb lgImgClick" src="emailImg.jpg" data-lg-img="emailImg-full.jpg"/>
                             </div>
                             <div class="rtCol">
                                 <h3 class="uppercase">Emails</h3>
@@ -120,10 +128,10 @@
                                 <div class="buttons">
                                     <a class="imgThumb lgImgClick shadow" data-lg-img="emailImg-full.jpg">
                                         <span class="enlargeIcon icon"></span>Enlarge
-                                    </a>
+									</a>
                                     <a class="shadow" href="">
                                         <span class="downloadIcon icon"></span>Download
-                                    </a>
+									</a>
                                 </div>
 
                             </div>
@@ -180,31 +188,6 @@
                 <a class="backtotop">Back to Top</a>
             </div>
         </div>
-        <div id="signupForm">
-            <div class="maxWidth">
-                <h2 class="heading"><span class="bold uppercase">Sign up</span> to clean up.</h2>
-                <div class="subheading">Get in on our spring cleaning campaign today and clean up on sales!</div>
-
-                <form method="post" action="http://www.pages03.net/pages/SpringClean/Signup" pageId="6694659" siteId="235358" parentPageId="6694658">
-                    <div class="formFields">
-                        <input type="text" name="Contact_Email" id="control_COLUMN40" label="Contact_Email" class="textInput" placeholder="Email">
-						<input type="text" name="Contact_Email" id="control_COLUMN40" label="Contact_Email" class="textInput" placeholder="Email">
-						<input type="text" name="Contact_Email" id="control_COLUMN40" label="Contact_Email" class="textInput" placeholder="Email">
-						<input type="text" name="Contact_Email" id="control_COLUMN40" label="Contact_Email" class="textInput" placeholder="Email">
-						<input type="text" name="Contact_Email" id="control_COLUMN40" label="Contact_Email" class="textInput" placeholder="Email">
-                        <input type="text" name="Company Name" id="control_COLUMN6" label="Company Name" class="textInput" placeholder="Company Name">
-                        <input type="text" name="Channel Name" id="control_COLUMN24" label="Channel Name" class="textInput" placeholder="Channel Name">
-                        <input type="hidden" name="formSourceName" value="StandardForm">
-                        <!-- DO NOT REMOVE HIDDEN FIELD sp_exp -->
-                        <input type="hidden" name="sp_exp" value="yes">
-                    </div>
-                    <div class="submitBtnWrap">
-                        <input type="submit" class="submitBtn defaultText buttonStyle shadow uppercase" value="Count me in!">
-                    </div>
-                </form>
-				<a class="backtotop">Back to Top</a>
-            </div>
-        </div>
         <footer>
             <p class="fineprint">
                 *Promotion Date: 4/1/16 thru 4/3/16. Special pricing is available at time of purchase. No minimum purchase necessary. Essendant reserves the right to limit quantities. Only applies to product in stock, while supplies last.
@@ -215,13 +198,13 @@
     <!-- JS Elements -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="main.js"></script>
-
-    <!-- For importing CSS images -->
-    <div style="display:none">
-        <img src="introIllustration.jpg" alt="" />
-        <img src="introIllustration-mobile.jpg" alt="" />
-        <img src="sprite.png" alt="" />
-    </div>
+	
+	<!-- For importing CSS images --> 
+	<div style="display:none">	
+		<img src="introIllustration.jpg" alt=""/> 	
+		<img src="introIllustration-mobile.jpg" alt=""/> 	
+		<img src="sprite.png" alt="" />
+	</div>
 </body>
 
 </html>
