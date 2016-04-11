@@ -39,13 +39,14 @@ footer .fineprint {font-size: 1.1rem; color: #888; line-height: 1.5rem;}
 
 /* Signup Modal */
 .signup .mfp-content {background:#3cc0f2; width: 100%; max-width: 570px;}
-#signupModal {padding: 30px 4%; width: 92%;}
-#signupModal p {font-size: 1.6rem; line-height: 2rem; text-align: center;}
-#signupModal input {width: 100%; font-size: 1.4rem; padding: 5px 10px; border:none; box-shadow:  inset 0 0 5px #aaa; margin-bottom: 10px; line-height: 3.5rem;}
-#signupModal form {margin-top: 30px;}
-#signupModal .heading {color: #fff; margin-bottom: 5px}
-#signupModal .submitBtnWrap {margin-top:25px; width: 100%; text-align: center;}
-#signupModal input.submitBtn {color: #fff; font-size: 2rem; box-shadow: 2px 2px 1px rgba(0,0,0,0.2); border-radius: 5px; background: #eb1d5d; max-width: 300px; display: inline-block; cursor: pointer; -webkit-appearance: none; -moz-appearance: none; appearance: none; -ms-appearance: none; -o-appearance: none}
+#signupForm {width: 100%; text-align: center; margin:35px 0 60px;}
+#signupForm form {max-width: 600px; text-align: left; display: inline-block;}
+#signupForm .subheading {font-size: 1.6rem; line-height: 2rem; text-align: center;}
+#signupForm input {width: 100%; font-size: 1.4rem; padding: 5px 10px; border:1px solid #ccc; box-shadow:  inset 0 0 5px #ddd; margin-bottom: 10px; line-height: 3.5rem;}
+#signupForm form {margin-top: 30px;}
+#signupForm .heading {color: #ed145b; margin-bottom: 5px}
+#signupForm .submitBtnWrap {margin-top:25px; width: 100%; text-align: center;}
+#signupForm input.submitBtn {color: #fff; font-size: 2rem; box-shadow: 2px 2px 1px rgba(0,0,0,0.2); border-radius: 5px; background: #eb1d5d; max-width: 300px; display: inline-block; cursor: pointer; -webkit-appearance: none; -moz-appearance: none; appearance: none; -ms-appearance: none; -o-appearance: none}
 
 /* Product List */
 #products {background: #2ebbf3; padding: 35px 0; margin-top: 30px}
@@ -79,8 +80,8 @@ footer .fineprint {font-size: 1.1rem; color: #888; line-height: 1.5rem;}
 	/* Manufacturer Content */
 	.mfrCont {text-align: center;}
 	.mfrCont .col {display: inline-block; text-align: center; margin-bottom: 50px; width: 100%; max-width: 500px}
-	.mfrCont .icon {border: 2px solid #093e53; display:inline-block;}
-	.mfrCont .icon img {padding: 30px 15px;}
+	.mfrCont .thumb {border: 2px solid #093e53; display:inline-block;}
+	.mfrCont .thumb img {padding: 30px 15px;}
 	
 
 @media only screen and (max-width:  375px)  {
@@ -102,7 +103,7 @@ footer .fineprint {font-size: 1.1rem; color: #888; line-height: 1.5rem;}
 	html {font-size: 72.5%;}
 	.backtotop {text-align: right}
 	#logo {display: inline-block}
-	#nav {float: right; width: auto; margin-top: 12px}
+	#nav {float: right; width: auto; margin-top: 6px}
 	#hero .prodIllus {padding-top: 42.1875%}
 	#hero .prodIllusWrap {background-image: url(introIllustration.jpg); max-width: none;}
 	#prodList h3 {font-size: 1.6rem;}

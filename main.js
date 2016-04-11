@@ -22,11 +22,16 @@ jQuery(document).ready(function() {
 	*/
 	
 	/* Signup Modal */
+	/*
 	jQuery(".introCTA").magnificPopup({
 		mainClass: "signup"
-	});
+	}); */
 	
 	/* Header Navigation */
+	jQuery(".introCTA").click(function() {
+		jQuery("#signupForm").slideto({highlight: false});
+	})
+	
 	jQuery(".navLink").click(function() {
 		var sec = "#" + jQuery(this).data('section');
 		jQuery(sec).slideto({highlight: false});
@@ -39,6 +44,7 @@ jQuery(document).ready(function() {
 	
 	/* Slider */
 	jQuery("#contSlider").owlCarousel({
+		autoHeight: true,
 		center: true,
 		items: 1,
 		nav: false,
