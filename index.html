@@ -20,7 +20,7 @@
         })();
     </script>
     <!-- Style Sheet -->
-    <link rel="stylesheet" type="text/css" href="assets/styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
 </head>
 
@@ -30,7 +30,7 @@
         <div id="header">
             <div class="maxWidth">
                 <div id="logo">
-                    <img class="logoImg" src="images/essLogo.png" />
+                    <img class="logoImg" src="essLogo.png" />
                 </div>
                 <div id="nav">
                     <ul class="navUl">
@@ -81,16 +81,16 @@
                 <div class="promo">Plus, for a limited time, <span class="bold uppercase">Save 25%</span> on top selling P&G Products.</div>
                 <ul id="prodList">
                     <li class="dawn">
-                        <img class="prodImg" src="images/prod-dawn.jpg" />
+                        <img class="prodImg" src="prod-dawn.jpg" />
                     </li>
                     <li class="cascade">
-                        <img class="prodImg" src="images/prod-cascade.jpg" />
+                        <img class="prodImg" src="prod-cascade.jpg" />
                     </li>
                     <li class="bounty">
-                        <img class="prodImg" src="images/prod-bounty.jpg" />
+                        <img class="prodImg" src="prod-bounty.jpg" />
                     </li>
                     <li class="febreze">
-                        <img class="prodImg" src="images/prod-febreze.jpg" />
+                        <img class="prodImg" src="prod-febreze.jpg" />
                     </li>
                 </ul>
                 <a class="backtotop">Back to Top</a>
@@ -113,33 +113,37 @@
                     <ul id="contSlider">
                         <li class="infographic" data-hash="infographic">
                             <div class="lftCol">
-                                <img src="images/infographic-img.jpg" />
+                                <img class="imgThumb lgImgClick" src="infographic-img.jpg" data-lg-img="infographic-full.jpg" />
                             </div>
                             <div class="rtCol">
                                 <h3 class="uppercase">Infographic</h3>
                                 <p>Infographics work because between 65 and 85 percent of people describe themselves as visual learners.*</p>
                                 <p class="fineprint">* http://www.trendreports.com/article/imagebased-social-media</p>
                                 <div class="buttons">
+                                    <a class="lgImgClick shadow" data-lg-img="infographic-full.jpg">
+                                        <div class="enlargeIcon icon"></div>Enlarge
+									</a>
                                     <a class="shadow" href="">
-                                        <div class="enlargeIcon icon"></div>Enlarge</a>
-                                    <a class="shadow" href="">
-                                        <div class="downloadIcon icon"></div>Download</a>
+                                        <div class="downloadIcon icon"></div>Download
+									</a>
                                 </div>
 
                             </div>
                         </li>
                         <li class="email" data-hash="email">
                             <div class="lftCol">
-                                <img src="images/emailImg.jpg" />
+                                <img class="imgThumb lgImgClick" src="emailImg.jpg" data-lg-img="emailImg-full.jpg"/>
                             </div>
                             <div class="rtCol">
                                 <h3 class="uppercase">Emails</h3>
                                 <p>A great way to touch base with your customers and it’s cost effective. Mobile consumers check emails multiple times a day and they’re always on the lookout for great deals to land in their in-box.</p>
                                 <div class="buttons">
+                                    <a class="imgThumb lgImgClick shadow" data-lg-img="emailImg-full.jpg">
+                                        <div class="enlargeIcon icon"></div>Enlarge
+									</a>
                                     <a class="shadow" href="">
-                                        <div class="enlargeIcon icon"></div>Enlarge</a>
-                                    <a class="shadow" href="">
-                                        <div class="downloadIcon icon"></div>Download</a>
+                                        <div class="downloadIcon icon"></div>Download
+									</a>
                                 </div>
 
                             </div>
@@ -147,7 +151,7 @@
                         <li class="mfrCont" data-hash="mfrCont">
                             <div class="col1 col">
                                 <div class="icon">
-                                    <img src="images/videoIcon.png" />
+                                    <img src="videoIcon.png" />
                                 </div>
                                 <div class="description">
                                     <h3 class="uppercase">Video</h3>
@@ -162,7 +166,7 @@
                             </div>
                             <div class="col2 col">
                                 <div class="icon">
-                                    <img src="images/photosIcon.png" />
+                                    <img src="photosIcon.png" />
                                 </div>
                                 <div class="description">
                                     <h3 class="uppercase">Photography</h3>
@@ -177,7 +181,7 @@
                             </div>
                             <div class="col3 col">
                                 <div class="icon">
-                                    <img src="images/prodspecsIcon.png" />
+                                    <img src="prodspecsIcon.png" />
                                 </div>
                                 <div class="description">
                                     <h3 class="uppercase">Product Specs</h3>
@@ -204,8 +208,9 @@
     </div>
 
     <!-- JS Elements -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="assets/main.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
+	<script src="jquery.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
